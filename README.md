@@ -4,4 +4,4 @@
 # 手順
 
 - `$ docker build -t hellodocker .`
-- `$ docker run hellodocker`
+- `$ docker run -v <マウントするホストの絶対パス>:/hoge:rw hellodocker`
